@@ -32,6 +32,7 @@ if(isset($message)){
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)</span> </a>
          </div>
+         
          <div class="user-box">
             <p>Usuario : <span><?php echo $_SESSION['user_name']; ?></span></p>
             <p>Email : <span><?php echo $_SESSION['user_email']; ?></span></p>
